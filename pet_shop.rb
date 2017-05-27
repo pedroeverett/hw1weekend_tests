@@ -23,5 +23,5 @@ def stock_count(pet_shop)
 end
 
 def pets_by_breed(pet_shop, pet_breed)
-  return pet_shop[:pets].select {|pet| pet[:breed] == "British Shorthair"} 
+  return pet_shop[:pets].select {|pet| pet[:breed] == pet_breed} 
 end
